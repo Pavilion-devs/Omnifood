@@ -18,6 +18,9 @@
     section{
         padding: 60px 0;
     }
+         .hero-box {
+             width: 100%;
+                padding: 0 2%;}
         .long-copy {
             margin-left: 10%;
             width: 80%;
@@ -46,21 +49,33 @@
         .plan-price {
             font-size: 150%;
 }
-
+.meal-showcase {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.meal-showcase li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+}
 
 /* Small phones to small tablets */
 @media only screen and (max-width:767px) {
     body{font-size: 16px;}
     .section{padding: 30px 0;}
     .row, .hero-box{
-        padding: 0 4%;
+        padding: 4%;
+        margin-bottom: 30px;
     }
     .col{
         width: 100%;
        margin: 1% 0 1% 0%;}
     .main-nav{display: none;}
 }
-h1{font-size: 100%;}
+h1{font-size: 200%; margin-bottom: 28px;}
 h2 {font-size: 150%;}
  .long-copy {
      margin-left: 0%;
